@@ -22,13 +22,15 @@
 
         > ul {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
+            padding: 0 15px;
         }
 
         > ul > li {
             position: relative;
             margin-top: 10px;
+
             > a {
                 position: relative;
                 color: #ffffffb4;
@@ -52,12 +54,12 @@
 
         > ul > li:first-child > a:hover::after {
             display: none;
-            
         }
 
         > ul > li:nth-child(2) {
             position: static;
-
+            margin: 0;
+            padding: 0;
         }
 
         .mega-menu a::after {
@@ -72,20 +74,13 @@
     img {
         width: 36px !important;
         height: 36px !important;
-        margin-top: 12px;
-        margin-right: 50%;
-        margin-left: -40px !important;
-        align-items: center;
-        text-align: center;
-        
+        margin: 12px 0 0 0 !important;
     }
 
     i {
         font-size: 17px;
     }
 }
-
-           
           
  
 
@@ -157,15 +152,15 @@
 
 
 .menu nav > ul > li:nth-child(2) {
-    margin: auto ;
+    margin: 0;
     display: flex;
     justify-content: center ;
     align-items: center;
-    padding-left: 90px;
+    padding: 0;
   }
 
     .menu nav > ul > li.icons-item {
-        margin-right: 25px;
+        margin: 10px 0 0 0;
         
     }
 
@@ -200,7 +195,7 @@
         justify-content: center;
         align-items: center;
         margin: 0;
-        font-size: 8.67px;
+        font-size: 7px;
         line-height: 40px;
         color: #eee;
 
@@ -230,14 +225,14 @@
         transform: translateX(-50%);
         width: 90%;
         text-align: center;
-        font-size: 21px;
+        font-size: 16px;
         margin: 0;
         white-space: nowrap;
 
     }
     >p{
         position: absolute;
-        top: 25%!important;
+        top: 30%!important;
         left: 50%!important;
         transform: translateX(-50%)!important;
         width: 90%!important;
@@ -250,10 +245,10 @@
         color: #000;
         position: absolute;
         bottom: auto !important;
-        top: 40% ;
+        top: 55% ;
         transform: translateX(-50%) !important;
         white-space: nowrap;
-        left: 42% !important;
+        left: 38% !important;
         background-color: #73E161;
         font-family: Razer-b;
         padding: 7px 5px;
@@ -263,7 +258,7 @@
     }
      .right-side{
         position: absolute;
-        top: 40% !important;
+        top: 55% !important;
         white-space: nowrap;
         bottom: auto !important;
         left: 54% !important;
