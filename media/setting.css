@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Razer;
+    src: url(../fonts/RazerF5Bold.woff);
+    src: url(../fonts/RazerF5Light.woff);
+}
+@font-face {
+    font-family: Razer-b;
+    src: url(../fonts/RazerF5Bold.woff);
+}
+*{
+    font-family: Razer;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+main{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
